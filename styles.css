@@ -1,0 +1,44 @@
+/* Agrega tus estilos personalizados aquí */
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para las tarjetas de cámaras y sensores */
+  .card {
+    border: none;
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+  }
+  
+  /* Ajustes de margen para las secciones */
+  #cameras,
+  #sensors {
+    margin-bottom: 30px;
+  }
+  .card-body{
+    border: 2px solid black;
+    border-radius: 32px;
+    height: 206px;
+  }
+  .active{
+    background-color: white;
+    border-radius: 10px;
+  }
+  .active a{
+    color: #0d6efd!important;
+  }
